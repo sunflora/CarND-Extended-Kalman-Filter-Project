@@ -22,3 +22,15 @@ xcuserdata/
 *.xcscmblueprint
 ide_profiles/xcode/Debug/
 ide_profiles/xcode/ExtendedKF.build/
+
+#.idea
+.idea/
+
+#cmake-build-debug
+cmake-build-debug/
+
+#backup
+src.zip
+
+#tracker
+tracker/
