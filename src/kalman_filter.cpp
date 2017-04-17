@@ -27,7 +27,7 @@ void KalmanFilter::Predict() {
 
   x_ = F_ * x_;
 
-  cout << "F_(0, 2) is " << F_(0, 2) << endl;
+  //cout << "F_(0, 2) is " << F_(0, 2) << endl;
 
   MatrixXd Ft = F_.transpose();
   P_ = F_ * P_ * Ft + Q_;

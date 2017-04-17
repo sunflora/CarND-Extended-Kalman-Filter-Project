@@ -175,7 +175,7 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
   previous_timestamp_ = measurement_pack.timestamp_;
 
-  cout << "dt is: " << dt << endl;
+  // cout << "dt is: " << dt << endl;
 
   double dt_2 = dt * dt;
   double dt_3 = dt_2 * dt;
@@ -235,8 +235,10 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
   }
 
   // print the output
+  /*
   cout << "x_ = " << ekf_.x_ << endl;
   cout << "P_ = " << ekf_.P_ << endl;
+  */
 }
 
 
